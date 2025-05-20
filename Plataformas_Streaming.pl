@@ -69,7 +69,7 @@ plataforma('Disney+ Austrália', video, subscricao, 2020, 'Austrália', 5.0, fil
 plataforma('Disney+ Brasil', video, subscricao, 2020, 'Brasil', 10.0, filmes_e_series, sim, 0.0).
 plataforma('Disney+ Canadá', video, subscricao, 2020, 'Canadá', 6.0, filmes_e_series, sim, 0.0).
 plataforma('Disney+ França', video, subscricao, 2020, 'França', 5.5, filmes_e_series, sim, 0.0).
-plataforma('Disney+ Hotstar', video, freemium, 2015, 'Índia', 50.0, series,_desporto,_bollywood, sim, 0.0).
+plataforma('Disney+ Hotstar', video, freemium, 2015, 'Índia', 50.0, series_desporto_bollywood, sim, 0.0).
 plataforma('Disney+ Itália', video, subscricao, 2020, 'Itália', 4.8, filmes_e_series, sim, 0.0).
 plataforma('Disney+ Japão', video, subscricao, 2020, 'Japão', 6.0, filmes_e_series, sim, 0.0).
 plataforma('Disney+ Portugal', video, subscricao, 2020, 'Portugal', 2.5, filmes_e_series, sim, 0.0).
@@ -77,13 +77,13 @@ plataforma('Disney+ Reino Unido', video, subscricao, 2020, 'Reino Unido', 7.0, f
 plataforma('Disney+ Star', video, subscricao, 2021, 'Canadá', 18.0, filmes_e_series, sim, 0.0).
 plataforma('ESPN Sports', video, subscricao, 2004, 'EUA', 3.0, desporto_em_espanhol, sim, 0.0).
 plataforma('ESPN+', video, subscricao, 2018, 'EUA', 25.0, desporto, sim, 0.0).
-plataforma('Eros Now', video, subscricao, 2012, 'Índia', 36.0, tv,_filmes,_series, sim, 0.0).
+plataforma('Eros Now', video, subscricao, 2012, 'Índia', 36.0, tv_filmes_series, sim, 0.0).
 plataforma('Facebook Watch', video, gratuito_com_anuncios, 2017, 'EUA', 100.0, videos_e_series, sim, 0.0).
 plataforma('Filmin', video, subscricao, 2007, 'Espanha', 3.0, filmes_europeus_e_independentes, sim, 0.0).
 plataforma('Filmin Portugal', video, subscricao, 2016, 'Portugal', 0.5, filmes_europeus, sim, 0.0).
 plataforma('FloSports', video, subscricao, 2016, 'EUA', 2.0, desporto, sim, 0.0).
 plataforma('Fox Sports Go', video, subscricao, 2013, 'EUA', 4.0, desporto, sim, 0.0).
-plataforma('Foxtel Now', video, subscricao, 2017, 'Austrália', 0.8, tv,_filmes,_series, sim, 0.0).
+plataforma('Foxtel Now', video, subscricao, 2017, 'Austrália', 0.8, tv_filmes_series, sim, 0.0).
 plataforma('FuboTV', video, subscricao, 2015, 'EUA', 1.3, tv_e_desporto, sim, 0.0).
 plataforma('Gaana', musica, freemium, 2010, 'Índia', 150.0, musica_indiana, sim, 0.0).
 plataforma('Globoplay', video, subscricao, 2015, 'Brasil', 30.0, tv_e_series_brasileiras, sim, 0.0).
@@ -105,7 +105,7 @@ plataforma('HBO Max Reino Unido', video, subscricao, 2023, 'Reino Unido', 6.0, f
 plataforma('HUMO Play', video, subscricao, 2020, 'Bélgica', 0.2, filmes_e_series, sim, 0.0).
 plataforma('Hayu', video, subscricao, 2016, 'Reino Unido', 2.0, reality_shows, sim, 0.0).
 plataforma('Hoichoi', video, subscricao, 2017, 'Índia', 13.0, filmes_e_series_bengales, sim, 0.0).
-plataforma('Hoopla Digital', video, gratuito, 2013, 'EUA', 5.0, filmes,_tv,_musica, nao, 0.0).
+plataforma('Hoopla Digital', video, gratuito, 2013, 'EUA', 5.0, filmes_tv_musica, nao, 0.0).
 plataforma('Huawei Video', video, subscricao, 2020, 'China', 5.0, filmes_e_series, nao, 0.0).
 plataforma('Hungama', musica, freemium, 1999, 'Índia', 20.0, musica_e_videos_indianos, sim, 0.0).
 plataforma('ITVX', video, gratuito, 2022, 'Reino Unido', 3.0, tv_britanica, sim, 0.0).
@@ -130,7 +130,7 @@ plataforma('MX Player', video, gratuito_com_anuncios, 2011, 'Índia', 280.0, fil
 plataforma('MX TakaTak', video, gratuito, 2020, 'Índia', 150.0, videos_curtos, sim, 0.0).
 plataforma('Movistar Play', video, subscricao, 2013, 'Argentina', 5.0, tv_e_series, sim, 0.0).
 plataforma('Mubi', video, subscricao, 2007, 'Global', 10.0, cinema_de_autor, sim, 0.0).
-plataforma('MyCanal', video, subscricao, 2013, 'França', 8.0, tv,_series_e_filmes, sim, 0.0).
+plataforma('MyCanal', video, subscricao, 2013, 'França', 8.0, tv_filmes_series, sim, 0.0).
 plataforma('MyTF1', video, gratuito_com_anuncios, 2016, 'França', 3.0, tv_francesa, sim, 0.0).
 plataforma('NBA League Pass', video, subscricao, 2015, 'EUA', 4.0, basquetebol, sim, 0.0).
 plataforma('NBC Sports', video, subscricao, 2012, 'EUA', 6.0, desporto, sim, 0.0).
@@ -139,7 +139,7 @@ plataforma('NHL.TV', video, subscricao, 2010, 'EUA', 2.0, hoquei_no_gelo, sim, 0
 plataforma('NOS Desporto', video, subscricao, 2022, 'Portugal', 1.0, desporto, nao, 0.0).
 plataforma('NOS Kids', video, subscricao, 2022, 'Portugal', 1.0, infantil, nao, 0.0).
 plataforma('NOS Play', video, subscricao, 2016, 'Portugal', 1.0, filmes_e_series, sim, 0.0).
-plataforma('NOW', video, subscricao, 2012, 'Reino Unido', 4.0, tv,_filmes,_series, sim, 0.0).
+plataforma('NOW', video, subscricao, 2012, 'Reino Unido', 4.0, tv_filmes_series, sim, 0.0).
 plataforma('NOWO TV', video, subscricao, 2016, 'Portugal', 0.3, tv_e_replay, nao, 0.0).
 plataforma('NRK TV', video, gratuito, 2009, 'Noruega', 1.0, tv_publica_norueguesa, sim, 0.0).
 plataforma('Napster', musica, subscricao, 1999, 'EUA', 3.0, musica, nao, 0.0).
@@ -165,12 +165,12 @@ plataforma('Olleh TV', video, subscricao, 2009, 'Coreia do Sul', 7.0, tv_e_video
 plataforma('PBS Kids', video, gratuito, 2016, 'EUA', 4.0, infantil_educativo, sim, 0.0).
 plataforma('Pandora', musica, freemium, 2000, 'EUA', 60.0, musica_e_radio, nao, 0.0).
 plataforma('Pantaya', video, subscricao, 2017, 'EUA', 0.9, filmes_e_series_em_espanhol, sim, 0.0).
-plataforma('Paramount+', video, subscricao, 2021, 'EUA', 60.0, filmes,_series,_desporto, sim, 0.0).
-plataforma('Paramount+ Brasil', video, subscricao, 2022, 'Brasil', 6.0, filmes,_series,_desporto, sim, 0.0).
-plataforma('Paramount+ Canadá', video, subscricao, 2022, 'Canadá', 4.0, filmes,_series,_desporto, sim, 0.0).
-plataforma('Paramount+ Portugal', video, subscricao, 2023, 'Portugal', 1.0, filmes,_series,_desporto, sim, 0.0).
-plataforma('Paramount+ UK', video, subscricao, 2022, 'Reino Unido', 2.0, filmes,_series,_desporto, sim, 0.0).
-plataforma('Peacock', video, freemium, 2020, 'EUA', 28.0, series,_filmes,_desporto, sim, 0.0).
+plataforma('Paramount+', video, subscricao, 2021, 'EUA', 60.0, filmes_series_desporto, sim, 0.0).
+plataforma('Paramount+ Brasil', video, subscricao, 2022, 'Brasil', 6.0, filmes_series_desporto, sim, 0.0).
+plataforma('Paramount+ Canadá', video, subscricao, 2022, 'Canadá', 4.0, filmes_series_desporto, sim, 0.0).
+plataforma('Paramount+ Portugal', video, subscricao, 2023, 'Portugal', 1.0, filmes_series_desporto, sim, 0.0).
+plataforma('Paramount+ UK', video, subscricao, 2022, 'Reino Unido', 2.0, filmes_series_desporto, sim, 0.0).
+plataforma('Peacock', video, freemium, 2020, 'EUA', 28.0, filmes_series_desporto, sim, 0.0).
 plataforma('Pluto TV', video, gratuito_com_anuncios, 2013, 'EUA', 79.0, tv_linear_e_on_demand, nao, 0.0).
 plataforma('Pluto TV Brasil', video, gratuito_com_anuncios, 2020, 'Brasil', 8.0, tv_e_filmes, nao, 0.0).
 plataforma('Pluto TV UK', video, gratuito_com_anuncios, 2019, 'Reino Unido', 7.0, tv_e_filmes, nao, 0.0).
@@ -186,9 +186,9 @@ plataforma('Rakuten TV', video, freemium, 2010, 'Espanha', 5.0, filmes, nao, 0.0
 plataforma('Red Bull TV', video, gratuito, 2010, 'Áustria', 10.0, desporto_e_aventura, sim, 0.0).
 plataforma('Redbox', video, gratuito_com_anuncios, 2017, 'EUA', 5.0, filmes_on_demand, nao, 0.0).
 plataforma('RetroCrush', video, gratuito_com_anuncios, 2020, 'EUA', 2.0, anime_classico, nao, 0.0).
-plataforma('Roku Channel EUA', video, gratuito_com_anuncios, 2017, 'EUA', 80.0, filmes,_series_e_tv, sim, 0.0).
-plataforma('Roku Channel México', video, gratuito_com_anuncios, 2022, 'México', 3.0, filmes,_series_e_tv, sim, 0.0).
-plataforma('Roku Channel Reino Unido', video, gratuito_com_anuncios, 2020, 'Reino Unido', 4.0, filmes,_series_e_tv, sim, 0.0).
+plataforma('Roku Channel EUA', video, gratuito_com_anuncios, 2017, 'EUA', 80.0, filmes_series_tv, sim, 0.0).
+plataforma('Roku Channel México', video, gratuito_com_anuncios, 2022, 'México', 3.0, filmes_series_tv, sim, 0.0).
+plataforma('Roku Channel Reino Unido', video, gratuito_com_anuncios, 2020, 'Reino Unido', 4.0, filmes_series_tv, sim, 0.0).
 plataforma('SBS On Demand', video, gratuito, 2011, 'Austrália', 6.0, tv_e_filmes, sim, 0.0).
 plataforma('SIC Mulher+', video, gratuito_com_anuncios, 2023, 'Portugal', 1.0, programas_e_series, sim, 0.0).
 plataforma('SIC Notícias', video, gratuito_com_anuncios, 2020, 'Portugal', 0.5, noticias, sim, 0.0).
@@ -205,7 +205,7 @@ plataforma('Shahid', video, subscricao, 2008, 'Emirados Árabes', 11.0, series_e
 plataforma('ShortsTV', video, subscricao, 2008, 'EUA', 1.0, curtas_metragens, sim, 0.0).
 plataforma('Showmax', video, subscricao, 2015, 'África do Sul', 1.5, filmes_e_series, sim, 0.0).
 plataforma('Shudder', video, subscricao, 2015, 'EUA', 2.0, terror, sim, 0.0).
-plataforma('Sky Go', video, subscricao, 2006, 'Reino Unido', 30.0, tv,_desporto, sim, 0.0).
+plataforma('Sky Go', video, subscricao, 2006, 'Reino Unido', 30.0, tv_desporto, sim, 0.0).
 plataforma('Sky Sports', video, subscricao, 2003, 'Reino Unido', 10.0, desporto, sim, 0.0).
 plataforma('SkyShowtime', video, subscricao, 2023, 'Europa', 3.0, filmes_e_series, sim, 0.0).
 plataforma('Sling TV', video, subscricao, 2015, 'EUA', 2.0, tv_ao_vivo, sim, 0.0).
@@ -232,8 +232,8 @@ plataforma('TV5MondePlus', video, gratuito, 2020, 'França', 2.0, conteudo_franc
 plataforma('TVB Anywhere', video, subscricao, 2016, 'Hong Kong', 6.0, tv_e_series_de_hong_kong, sim, 0.0).
 plataforma('TVI Player', video, gratuito_com_anuncios, 2015, 'Portugal', 1.0, tv_portuguesa, sim, 0.0).
 plataforma('TVNZ+', video, gratuito, 2007, 'Nova Zelândia', 2.0, tv_da_nova_zelandia, sim, 0.0).
-plataforma('Telemundo Now', video, gratuito, 2017, 'EUA', 3.0, tv,_filmes,_series, sim, 0.0).
-plataforma('Tencent Video', video, subscricao, 2011, 'China', 124.0, series,_filmes_e_animes, sim, 0.0).
+plataforma('Telemundo Now', video, gratuito, 2017, 'EUA', 3.0, filmes_tv_series, sim, 0.0).
+plataforma('Tencent Video', video, subscricao, 2011, 'China', 124.0, filmes_series_animes, sim, 0.0).
 plataforma('Tidal', musica, subscricao, 2014, 'Noruega', 5.0, musica, sim, 0.0).
 plataforma('TimVision', video, subscricao, 2014, 'Itália', 1.0, filmes_e_series, sim, 0.0).
 plataforma('Topic', video, subscricao, 2019, 'EUA', 0.5, thrillers,_drama,_indie, sim, 0.0).
