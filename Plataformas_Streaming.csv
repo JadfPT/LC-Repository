@@ -70,7 +70,7 @@ Disney+ Austrália;Vídeo;Subscrição;2020;Austrália;5.0;Disney+;The Walt Disney Co
 Disney+ Brasil;Vídeo;Subscrição;2020;Brasil;10.0;Disney+;The Walt Disney Company;Filmes e Séries;Sim;Brasil;8.99
 Disney+ Canadá;Vídeo;Subscrição;2020;Canadá;6.0;Disney+;The Walt Disney Company;Filmes e Séries;Sim;Canadá;8.99
 Disney+ França;Vídeo;Subscrição;2020;França;5.5;Disney+;The Walt Disney Company;Filmes e Séries;Sim;França;8.99
-Disney+ Hotstar;Vídeo;Freemium;2015;Índia;50.0;Hotstar;The Walt Disney Company India;Séries, Desporto, Bollywood;Sim;Índia e outros;2.00
+Disney+ Hotstar;Vídeo;Freemium;2015;Índia;50.0;Hotstar;The Walt Disney Company India;Séries Desporto Bollywood;Sim;Índia e outros;2.00
 Disney+ Itália;Vídeo;Subscrição;2020;Itália;4.8;Disney+;The Walt Disney Company;Filmes e Séries;Sim;Itália;8.99
 Disney+ Japão;Vídeo;Subscrição;2020;Japão;6.0;Disney+;The Walt Disney Company;Filmes e Séries;Sim;Japão;8.99
 Disney+ Portugal;Vídeo;Subscrição;2020;Portugal;2.5;Disney+;The Walt Disney Company;Filmes e Séries;Sim;Portugal;8.99
@@ -78,13 +78,13 @@ Disney+ Reino Unido;Vídeo;Subscrição;2020;Reino Unido;7.0;Disney+;The Walt Disne
 Disney+ Star;Vídeo;Subscrição;2021;Canadá;18.0;Disney+;The Walt Disney Company;Filmes e Séries;Sim;160+;8.99
 ESPN Sports;Vídeo;Subscrição;2004;EUA;3.0;ESPN;ESPN;Desporto em Espanhol;Sim;EUA;Incluído com operadoras
 ESPN+;Vídeo;Subscrição;2018;EUA;25.0;ESPN;ESPN;Desporto;Sim;EUA;9.99
-Eros Now;Vídeo;Subscrição;2012;Índia;36.0;Eros Now;Eros Media World;TV, Filmes, Séries;Sim;Reino Unido;9.99
+Eros Now;Vídeo;Subscrição;2012;Índia;36.0;Eros Now;Eros Media World;TV Filmes Séries;Sim;Reino Unido;9.99
 Facebook Watch;Vídeo;Gratuito com anúncios;2017;EUA;100.0;Facebook;Meta Platforms;Vídeos e Séries;Sim;Global;0
 Filmin;Vídeo;Subscrição;2007;Espanha;3.0;Filmin;Filmin;Filmes Europeus e Independentes;Sim;Espanha;7.99
 Filmin Portugal;Vídeo;Subscrição;2016;Portugal;0.5;Filmin;Filmin;Filmes Europeus;Sim;Portugal;6.95
 FloSports;Vídeo;Subscrição;2016;EUA;2.0;Flosports;Flosports;Desporto;Sim;EUA;29.99
 Fox Sports Go;Vídeo;Subscrição;2013;EUA;4.0;Fox Sports Go;Fox Corporation;Desporto;Sim;EUA;Depende do provedor
-Foxtel Now;Vídeo;Subscrição;2017;Austrália;0.8;Foxtel Now;Foxtel;TV, Filmes, Séries;Sim;Reino Unido;9.99
+Foxtel Now;Vídeo;Subscrição;2017;Austrália;0.8;Foxtel Now;Foxtel;TV Filmes Séries;Sim;Reino Unido;9.99
 FuboTV;Vídeo;Subscrição;2015;EUA;1.3;Fubotv;FaceBank Group;TV e Desporto;Sim;EUA;74.99
 Gaana;Música;Freemium;2010;Índia;150.0;Gaana;Times Internet;Música Indiana;Sim;Índia;1.50
 Globoplay;Vídeo;Subscrição;2015;Brasil;30.0;Globoplay;Grupo Globo;TV e Séries Brasileiras;Sim;Brasil;5.00
@@ -106,7 +106,7 @@ HBO Max Reino Unido;Vídeo;Subscrição;2023;Reino Unido;6.0;HBO Max;Warner Bros. D
 HUMO Play;Vídeo;Subscrição;2020;Bélgica;0.2;Humo Play;Humo;Filmes e Séries;Sim;Bélgica;6.20
 Hayu;Vídeo;Subscrição;2016;Reino Unido;2.0;Hayu;NBCUniversal;Reality Shows;Sim;40+;4.99
 Hoichoi;Vídeo;Subscrição;2017;Índia;13.0;Hoichoi;Hoichoi;Filmes e Séries Bengalês;Sim;Global;1.50
-Hoopla Digital;Vídeo;Gratuito;2013;EUA;5.0;Hoopla;Midwest Tape;Filmes, TV, Música;Não;EUA (bibliotecas);0
+Hoopla Digital;Vídeo;Gratuito;2013;EUA;5.0;Hoopla;Midwest Tape;Filmes TV Música;Não;EUA (bibliotecas);0
 Huawei Video;Vídeo;Subscrição;2020;China;5.0;Huawei Video;Huawei Investment & Holding Co., Ltd.;Filmes e Séries;Não;Europa, China;2.99
 Hungama;Música;Freemium;1999;Índia;20.0;Hungama;Hungama Digital Media Entertainment;Música e Vídeos Indianos;Sim;Índia;0.90
 ITVX;Vídeo;Gratuito;2022;Reino Unido;3.0;Itvx;ITV plc;TV Britânica;Sim;Reino Unido;0
@@ -131,7 +131,7 @@ MX Player;Vídeo;Gratuito com anúncios;2011;Índia;280.0;Mx Player;Amazon India;Fi
 MX TakaTak;Vídeo;Gratuito;2020;Índia;150.0;Mx Takatak;Mohalla Tech;Vídeos Curtos;Sim;Índia;0
 Movistar Play;Vídeo;Subscrição;2013;Argentina;5.0;Movistar;Telefónica;TV e Séries;Sim;América Latina;Incluído com operadora
 Mubi;Vídeo;Subscrição;2007;Global;10.0;Mubi;Mubi;Cinema de Autor;Sim;Global;9.99
-MyCanal;Vídeo;Subscrição;2013;França;8.0;Mycanal;Canal+;TV, Séries e Filmes;Sim;França;Incluído com subscrição Canal+
+MyCanal;Vídeo;Subscrição;2013;França;8.0;Mycanal;Canal+;TV Filmes Séries;Sim;França;Incluído com subscrição Canal+
 MyTF1;Vídeo;Gratuito com anúncios;2016;França;3.0;Mytf1;TF1 Group;TV Francesa;Sim;França;0
 NBA League Pass;Vídeo;Subscrição;2015;EUA;4.0;Nba League Pass;National Basketball Association;Basquetebol;Sim;Global;14.99
 NBC Sports;Vídeo;Subscrição;2012;EUA;6.0;Nbc Sports;Comcast Corp;Desporto;Sim;EUA;Incluído com operadora
@@ -140,7 +140,7 @@ NHL.TV;Vídeo;Subscrição;2010;EUA;2.0;Nhl.Tv;NHL;Hóquei no Gelo;Sim;Global;9.99
 NOS Desporto;Vídeo;Subscrição;2022;Portugal;1.0;NOS;NOS;Desporto;Não;Portugal;Incluído com operadora
 NOS Kids;Vídeo;Subscrição;2022;Portugal;1.0;NOS;NOS;Infantil;Não;Portugal;Incluído com operadora
 NOS Play;Vídeo;Subscrição;2016;Portugal;1.0;NOS;NOS;Filmes e Séries;Sim;Portugal;7.50
-NOW;Vídeo;Subscrição;2012;Reino Unido;4.0;Now;Sky Group;TV, Filmes, Séries;Sim;Reino Unido;9.99
+NOW;Vídeo;Subscrição;2012;Reino Unido;4.0;Now;Sky Group;TV Filmes Séries;Sim;Reino Unido;9.99
 NOWO TV;Vídeo;Subscrição;2016;Portugal;0.3;NOWO;Digi Communications;TV e Replay;Não;Portugal;Incluído com operadora
 NRK TV;Vídeo;Gratuito;2009;Noruega;1.0;Nrk Tv;Norwegian Broadcasting Corporation;TV Pública Norueguesa;Sim;Noruega;0
 Napster;Música;Subscrição;1999;EUA;3.0;Napster;Infinite Reality;Música;Não;Global;7.99
@@ -166,12 +166,12 @@ Olleh TV;Vídeo;Subscrição;2009;Coreia do Sul;7.0;Olleh Tv;KT;TV e Vídeo sob Dema
 PBS Kids;Vídeo;Gratuito;2016;EUA;4.0;Pbs Kids;Public Broadcasting Service;Infantil Educativo;Sim;EUA;0
 Pandora;Música;Freemium;2000;EUA;60.0;Pandora;SiriusXM;Música e Rádio;Não;EUA;4.99
 Pantaya;Vídeo;Subscrição;2017;EUA;0.9;Pantaya;TelevisaUnivision;Filmes e Séries em Espanhol;Sim;EUA e Porto Rico;5.99
-Paramount+;Vídeo;Subscrição;2021;EUA;60.0;Paramount+;Paramount Global;Filmes, Séries, Desporto;Sim;Global;4.99
-Paramount+ Brasil;Vídeo;Subscrição;2022;Brasil;6.0;Paramount+;Paramount Global;Filmes, Séries, Desporto;Sim;Global;4.99
-Paramount+ Canadá;Vídeo;Subscrição;2022;Canadá;4.0;Paramount+;Paramount Global;Filmes, Séries, Desporto;Sim;Global;4.99
-Paramount+ Portugal;Vídeo;Subscrição;2023;Portugal;1.0;Paramount+;Paramount Global;Filmes, Séries, Desporto;Sim;Global;4.99
-Paramount+ UK;Vídeo;Subscrição;2022;Reino Unido;2.0;Paramount+;Paramount Global;Filmes, Séries, Desporto;Sim;Global;4.99
-Peacock;Vídeo;Freemium;2020;EUA;28.0;Peacock;NBCUniversal;Séries, Filmes, Desporto;Sim;EUA, Reino Unido, Irlanda;4.99
+Paramount+;Vídeo;Subscrição;2021;EUA;60.0;Paramount+;Paramount Global;Filmes Séries Desporto;Sim;Global;4.99
+Paramount+ Brasil;Vídeo;Subscrição;2022;Brasil;6.0;Paramount+;Paramount Global;Filmes Séries Desporto;Sim;Global;4.99
+Paramount+ Canadá;Vídeo;Subscrição;2022;Canadá;4.0;Paramount+;Paramount Global;Filmes Séries Desporto;Sim;Global;4.99
+Paramount+ Portugal;Vídeo;Subscrição;2023;Portugal;1.0;Paramount+;Paramount Global;Filmes Séries Desporto;Sim;Global;4.99
+Paramount+ UK;Vídeo;Subscrição;2022;Reino Unido;2.0;Paramount+;Paramount Global;Filmes Séries Desporto;Sim;Global;4.99
+Peacock;Vídeo;Freemium;2020;EUA;28.0;Peacock;NBCUniversal;Filmes Séries Desporto;Sim;EUA, Reino Unido, Irlanda;4.99
 Pluto TV;Vídeo;Gratuito com anúncios;2013;EUA;79.0;Pluto Tv;Paramount Global;TV Linear e On Demand;Não;Global;0
 Pluto TV Brasil;Vídeo;Gratuito com anúncios;2020;Brasil;8.0;Pluto Tv;Paramount Global;TV e Filmes;Não;Brasil;0
 Pluto TV UK;Vídeo;Gratuito com anúncios;2019;Reino Unido;7.0;Pluto Tv;Paramount Global;TV e Filmes;Não;Reino Unido;0
@@ -187,9 +187,9 @@ Rakuten TV;Vídeo;Freemium;2010;Espanha;5.0;Rakuten Tv;akuten Group, Inc.;Filmes;
 Red Bull TV;Vídeo;Gratuito;2010;Áustria;10.0;Red Bull Tv;Red Bull GmbH;Desporto e Aventura;Sim;Global;0
 Redbox;Vídeo;Gratuito com anúncios;2017;EUA;5.0;Redbox;Chicken Soup for the Soul Entertainment;Filmes On Demand;Não;EUA;Aluguer
 RetroCrush;Vídeo;Gratuito com anúncios;2020;EUA;2.0;Retrocrh;Cineverse Entertainment Corp;Anime Clássico;Não;EUA;0
-Roku Channel EUA;Vídeo;Gratuito com anúncios;2017;EUA;80.0;The Roku Channel;Roku Inc.;Filmes, Séries e TV;Sim;EUA;0
-Roku Channel México;Vídeo;Gratuito com anúncios;2022;México;3.0;The Roku Channel;Roku Inc.;Filmes, Séries e TV;Sim;México;0
-Roku Channel Reino Unido;Vídeo;Gratuito com anúncios;2020;Reino Unido;4.0;The Roku Channel;Roku Inc.;Filmes, Séries e TV;Sim;Reino Unido;0
+Roku Channel EUA;Vídeo;Gratuito com anúncios;2017;EUA;80.0;The Roku Channel;Roku Inc.;Filmes Séries TV;Sim;EUA;0
+Roku Channel México;Vídeo;Gratuito com anúncios;2022;México;3.0;The Roku Channel;Roku Inc.;Filmes Séries TV;Sim;México;0
+Roku Channel Reino Unido;Vídeo;Gratuito com anúncios;2020;Reino Unido;4.0;The Roku Channel;Roku Inc.;Filmes Séries TV;Sim;Reino Unido;0
 SBS On Demand;Vídeo;Gratuito;2011;Austrália;6.0;Sbs On Demand;Special Broadcasting Service;TV e Filmes;Sim;Austrália;0
 SIC Mulher+;Vídeo;Gratuito com anúncios;2023;Portugal;1.0;SIC;SIC SA;Programas e Séries;Sim;Portugal;0
 SIC Notícias;Vídeo;Gratuito com anúncios;2020;Portugal;0.5;SIC;SIC SA;Notícias;Sim;Portugal;0
@@ -206,7 +206,7 @@ Shahid;Vídeo;Subscrição;2008;Emirados Árabes;11.0;Shahid;MBC Group;Séries e Film
 ShortsTV;Vídeo;Subscrição;2008;EUA;1.0;Shortstv;Shorts Entertainment Holdings;Curtas-metragens;Sim;Global;4.99
 Showmax;Vídeo;Subscrição;2015;África do Sul;1.5;Showmax;MultiChoice;Filmes e Séries;Sim;Global;6.99
 Shudder;Vídeo;Subscrição;2015;EUA;2.0;Shudder;AMC Networks;Terror;Sim;EUA, Canadá, Europa;4.99
-Sky Go;Vídeo;Subscrição;2006;Reino Unido;30.0;Sky Go;Comcast;TV, Desporto;Sim;Reino Unido;Incluído com Sky
+Sky Go;Vídeo;Subscrição;2006;Reino Unido;30.0;Sky Go;Comcast;TV Desporto;Sim;Reino Unido;Incluído com Sky
 Sky Sports;Vídeo;Subscrição;2003;Reino Unido;10.0;Sky Sports;Comcast;Desporto;Sim;Reino Unido;29.99
 SkyShowtime;Vídeo;Subscrição;2023;Europa;3.0;Skyshowtime;Comcast/Paramount Global;Filmes e Séries;Sim;Europa;6.99
 Sling TV;Vídeo;Subscrição;2015;EUA;2.0;Sling Tv;DISH Network;TV ao vivo;Sim;EUA;40.00
@@ -233,8 +233,8 @@ TV5MondePlus;Vídeo;Gratuito;2020;França;2.0;Tv5Mondepl;France Télévisions;Conteú
 TVB Anywhere;Vídeo;Subscrição;2016;Hong Kong;6.0;Tvb Anywhere;Television Broadcasts Limited;TV e Séries de Hong Kong;Sim;Global;6.99
 TVI Player;Vídeo;Gratuito com anúncios;2015;Portugal;1.0;TVI Player;Media Capital;TV Portuguesa;Sim;Portugal;0
 TVNZ+;Vídeo;Gratuito;2007;Nova Zelândia;2.0;Tvnz+;Television New Zealand;TV da Nova Zelândia;Sim;Nova Zelândia;0
-Telemundo Now;Vídeo;Gratuito;2017;EUA;3.0;Telemundo Now;NBCUniversal Telemundo Enterprises;TV, Filmes, Séries;Sim;Reino Unido;9.99
-Tencent Video;Vídeo;Subscrição;2011;China;124.0;Tencent Video;Tencent Holdings Ltd.;Séries, Filmes e Animes;Sim;China;2.00
+Telemundo Now;Vídeo;Gratuito;2017;EUA;3.0;Telemundo Now;NBCUniversal Telemundo Enterprises;Filmes TV Séries;Sim;Reino Unido;9.99
+Tencent Video;Vídeo;Subscrição;2011;China;124.0;Tencent Video;Tencent Holdings Ltd.;Filmes Séries Animes;Sim;China;2.00
 Tidal;Música;Subscrição;2014;Noruega;5.0;Tidal;Block, Inc.;Música;Sim;60+;9.99
 TimVision;Vídeo;Subscrição;2014;Itália;1.0;Timvision;TIM;Filmes e Séries;Sim;Itália;5.00
 Topic;Vídeo;Subscrição;2019;EUA;0.5;Topic;First Look Media;Thrillers, Drama, Indie;Sim;EUA, Canadá;5.99
