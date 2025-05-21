@@ -3,8 +3,8 @@ import base64
 import pandas as pd
 import random
 
-CLIENT_ID = "9e924b4abc484e21950667be3fb7e0d9"
-CLIENT_SECRET = "30bd753b7d1f4abf9e958e06479586d4"
+CLIENT_ID = " " # Substitua pela sua chave de API do Spotify
+CLIENT_SECRET = " " # Substitua pela sua chave de API do Spotify
 
 def get_access_token(client_id, client_secret):
     auth_url = "https://accounts.spotify.com/api/token"
@@ -145,8 +145,3 @@ if __name__ == "__main__":
 #aleatorio: busca por género ou artista aleatório
            #No caso de música, ele usa géneros e letras iniciais para gerar variedade.
            #No caso de podcasts, faz buscas aleatórias com várias letras.
-
-
-
-#CLIENT_ID = "9e924b4abc484e21950667be3fb7e0d9"
-#CLIENT_SECRET = "30bd753b7d1f4abf9e958e06479586d4"

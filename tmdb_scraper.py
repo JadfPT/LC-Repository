@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import random
 
-API_KEY = "9ae404c68e7594d3e822a8c35d41a9ab"
+API_KEY = " "  # Substitua pela sua chave de API do TMDB"
 BASE_URL = "https://api.themoviedb.org/3"
 
 HEADERS = {}
@@ -222,7 +222,3 @@ if __name__ == "__main__":
 #| `populares`    | Os 100 conteúdos mais populares (primeiras 5 paginas)              |
 #| `aleatorio`    | Cinco páginas aleatórias entre 1 e 100 (variação leve)             |
 #| `multipaginas` | 10 páginas aleatórias (baralha os resultados e escolhe 100 únicos) |
-
-
-
-#API_KEY = "9ae404c68e7594d3e822a8c35d41a9ab"
