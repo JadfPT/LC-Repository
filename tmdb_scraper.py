@@ -222,3 +222,8 @@ if __name__ == "__main__":
 #| `populares`    | Os 100 conteúdos mais populares (primeiras 5 paginas)              |
 #| `aleatorio`    | Cinco páginas aleatórias entre 1 e 100 (variação leve)             |
 #| `multipaginas` | 10 páginas aleatórias (baralha os resultados e escolhe 100 únicos) |
+
+
+
+
+#    python3 tmdb_scraper.py

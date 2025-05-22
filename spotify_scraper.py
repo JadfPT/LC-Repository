@@ -145,3 +145,6 @@ if __name__ == "__main__":
 #aleatorio: busca por género ou artista aleatório
            #No caso de música, ele usa géneros e letras iniciais para gerar variedade.
            #No caso de podcasts, faz buscas aleatórias com várias letras.
+
+
+#    python3 spotify_scraper.py
