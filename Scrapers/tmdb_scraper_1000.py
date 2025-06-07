@@ -1,8 +1,9 @@
 import requests
 import pandas as pd
 import random
+import time
 
-API_KEY = " "  # Substitua pela sua chave de API do TMDB"
+API_KEY = " " # Insira sua chave de API do TMDB aqui
 BASE_URL = "https://api.themoviedb.org/3"
 
 HEADERS = {}
@@ -93,13 +94,10 @@ def buscar_classificacao_etaria(tipo, id_tmdb):
 
     return "Livre"
 
-def buscar_conteudos(tipo="filme", plataforma="netflix", regiao="PT", limite=100, modo="populares"):
+def buscar_conteudos(tipo="filme", plataforma="netflix", regiao="PT", limite=1000, modo="multipaginas"):
     provider_id = PROVIDERS.get(plataforma.lower())
     if not provider_id:
         print(f"❌ Plataforma '{plataforma}' não reconhecida.")
-        print("Plataformas disponíveis:")
-        for nome in sorted(PROVIDERS):
-            print(" -", nome)
         return pd.DataFrame()
 
     if regiao.upper() == "?":
@@ -125,22 +123,26 @@ def buscar_conteudos(tipo="filme", plataforma="netflix", regiao="PT", limite=100
     vistos = set()
 
     if modo == "populares":
-        paginas = [1, 2, 3, 4, 5]
+        paginas = list(range(1, 51))
     elif modo == "aleatorio":
-        paginas = random.sample(range(1, 101), k=5)
+        paginas = random.sample(range(1, 201), k=40)
     elif modo == "multipaginas":
-        paginas = random.sample(range(1, 101), k=10)
+        paginas = random.sample(range(1, 300), k=100)
     else:
         paginas = [1]
 
     for pagina in paginas:
+        if len(resultados) >= limite:
+            break
+
         params = base_params.copy()
         params["page"] = pagina
 
         resp = requests.get(endpoint, params=params)
+        time.sleep(0.25)  # evita limite de requisições
+
         if resp.status_code != 200:
             print("❌ Erro na API:", resp.status_code)
-            print(resp.text)
             continue
 
         data = resp.json()
@@ -151,7 +153,12 @@ def buscar_conteudos(tipo="filme", plataforma="netflix", regiao="PT", limite=100
                 continue
             vistos.add(id_unico)
 
-            detalhes = requests.get(f"{BASE_URL}/{TIPOS[tipo]}/{id_unico}", params={"api_key": API_KEY}).json()
+            detalhes = requests.get(f"{BASE_URL}/{TIPOS[tipo]}/{id_unico}", params={"api_key": API_KEY})
+            time.sleep(0.25)
+            if detalhes.status_code != 200:
+                continue
+
+            detalhes = detalhes.json()
 
             titulo = detalhes.get("title") or detalhes.get("name")
             ano = (detalhes.get("release_date") or detalhes.get("first_air_date") or "").split("-")[0]
@@ -197,13 +204,11 @@ def buscar_conteudos(tipo="filme", plataforma="netflix", regiao="PT", limite=100
 
             if len(resultados) >= limite:
                 break
-        if len(resultados) >= limite:
-            break
 
     random.shuffle(resultados)
     return pd.DataFrame(resultados[:limite])
 
-def exportar_csv(df, nome="conteudos_tmdb.csv"): #Ajustar o nome do ficheiro
+def exportar_csv(df, nome="conteudos_tmdb_1000.csv"):
     df.to_csv(nome, index=False, sep=";", encoding="utf-8")
     print(f"✅ Exportado: {nome}")
 
@@ -212,8 +217,9 @@ if __name__ == "__main__":
     plataforma = input("Plataforma (ex: netflix, prime, disney+): ").strip().lower()
     regiao = input("Região (ex: PT, US, BR ou ? para listar): ").strip().upper()
     modo = input("Modo (populares / aleatorio / multipaginas): ").strip().lower()
-    df = buscar_conteudos(tipo=tipo, plataforma=plataforma, regiao=regiao, limite=100, modo=modo)
+    df = buscar_conteudos(tipo=tipo, plataforma=plataforma, regiao=regiao, limite=1000, modo=modo)
     exportar_csv(df)
+
 
 
 
@@ -226,4 +232,4 @@ if __name__ == "__main__":
 
 
 
-#    python3 tmdb_scraper.py
+#    python3 tmdb_scraper_1000.py

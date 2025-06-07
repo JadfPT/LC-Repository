@@ -3,8 +3,8 @@ import base64
 import pandas as pd
 import random
 
-CLIENT_ID = " " # Substitua pela sua chave de API do Spotify
-CLIENT_SECRET = " " # Substitua pela sua chave de API do Spotify
+CLIENT_ID = "" # Substitua pela sua chave de API do Spotify
+CLIENT_SECRET = "" # Substitua pela sua chave de API do Spotify
 
 def get_access_token(client_id, client_secret):
     auth_url = "https://accounts.spotify.com/api/token"
@@ -136,7 +136,7 @@ if __name__ == "__main__":
     mercado = input("País (código ISO, ex: PT, BR, US): ").strip().upper()
     modo = input("Modo (populares/aleatorio): ").strip().lower()
     token = get_access_token(CLIENT_ID, CLIENT_SECRET)
-    conteudos = get_spotify_content(token, tipo=tipo, mercado=mercado, modo=modo, limite=100)
+    conteudos = get_spotify_content(token, tipo=tipo, mercado=mercado, modo=modo, limite=1000)
     export_to_csv(conteudos)
 
 
