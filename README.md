@@ -96,17 +96,19 @@ Pretende procurar por atributos (1) ou indicar um conteudo (2)?
 
 No caso de *procurar por atributos (1)*, o sistema irá interagir com o utilizador através de perguntas que irão diferir segundo o tipo de conteúdo que é escolhido. As perguntas que podem ser feitas sobre as preferências são:
 
-- Tipo de conteúdo (TV, Série, Filme, Música, Podcast, OVA)
-- Género (Anime, Ação, Comédia, Drama, etc.)
-- Classificação etária (PEGI)
-- Ano de lançamento
-- Classificação IMDb
-- Número de temporadas
-- Número de episódios
-- Produtor / Artista
-- Tempo de duração
+- Tipo de conteúdo (TV, Série, Filme, Música, Podcast, OVA);
+- Género (Anime, Ação, Comédia, Drama, etc.);
+- Classificação etária (PEGI);
+- Ano de lançamento;
+- Classificação IMDb;
+- Número de temporadas;
+- Número de episódios;
+- Produtor / Artista;
+- Tempo de duração.
 
-O utilizador pode usar 'null.' como resposta para não ser considerada essa preferência.
+Sendo então devolvido o nome do conteúdo que melhor se encaixa nessas preferências. 
+
+> 💡 O utilizador pode usar 'null.' como resposta para não ser considerada essa preferência.
 
 
 ```text
@@ -115,7 +117,16 @@ Pretende procurar por atributos (1) ou indicar um conteudo (2)?
 |: 2. 
 ```
 
-No caso de *indicar um conteúdo (2)*, irá ser perguntado ao utilizador se sabe o nome completo desse mesmo. Caso saiba, é então perguntado qual é esse nome, sendo então devolvida a plataforma de streaming em que esse se encontra. No caso de não saber, pergunta então parte do nome do conteúdo, tipo, ano e género para assim devolver a plataforma de streaming com esse conteúdo disponível.
+No caso de *indicar um conteúdo (2)*, irá ser perguntado ao utilizador se sabe o nome completo desse mesmo. Caso saiba, é então perguntado qual é esse nome, sendo então devolvida a plataforma de streaming em que esse se encontra. No caso de não saber, pergunta então: 
+
+- Parte do nome do conteúdo; 
+- Tipo;
+- Ano;
+- Género. 
+
+Para assim devolver a plataforma de streaming com esse conteúdo disponível.
+
+> 💡 O utilizador pode aqui também usar 'null.' como resposta.
 
 6. Quando terminar, o utilizador pode:
 
@@ -131,6 +142,7 @@ No caso de *indicar um conteúdo (2)*, irá ser perguntado ao utilizador se sabe
 ## 🙋 Autores
 
 [JadfPT](https://github.com/JadfPT)
+
 [imdtcode](https://github.com/imdtcode)
 
 ## 📜 Licença
