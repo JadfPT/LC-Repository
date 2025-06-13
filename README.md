@@ -62,33 +62,33 @@ A versão final do sistema encontra-se em `Versão Final/`:
 - `base_streaming.pl` – Base de factos em Prolog com conteúdos e plataformas
 - `Perito.pl` – Motor de inferência baseado em perguntas ao utilizador
 
-### ▶️ Como utilizar
+## ▶️ Como utilizar
 
 Para correr o sistema pericial:
 
 1. Abra um terminal e navegue até à pasta `Versão Final/`.
 2. Inicia o interpretador Prolog (ex: [SWI-Prolog](https://www.swi-prolog.org/)).
 
-```terminal
+```text
 swipl Perito.pl
 ```
 
 3. No terminal do Prolog, carregue o motor de inferência:
 
-```prolog
+```text
 ?- perito.
 ```
 
 4. Consulte a base de conhecimento:
 
-```prolog
+```text
 > 1.
 Nome da BC: |: base_streaming.
 ```
 
 5. Escolha a opção Solucionar e indique se pretende procurar um conteúdo com base em atributos ou descobrir em que plataforma se encontra um determinado título:
 
-```prolog
+```text
 > |: 2.
 Pretende procurar por atributos (1) ou indicar um conteudo (2)?
 |: 1. 
@@ -109,7 +109,7 @@ No caso de *procurar por atributos (1)*, o sistema irá interagir com o utilizad
 O utilizador pode usar 'null.' como resposta para não ser considerada essa preferência.
 
 
-```prolog
+```text
 > |: 2.
 Pretende procurar por atributos (1) ou indicar um conteudo (2)?
 |: 2. 
@@ -122,7 +122,7 @@ No caso de *indicar um conteúdo (2)*, irá ser perguntado ao utilizador se sabe
 - Voltar a selecionar a opção **Solucionar** caso deseje realizar uma nova pesquisa;
 - Ou escolher a opção **Sair** para encerrar o sistema:
 
-```prolog
+```text
 > |: 3.
 ```
 
@@ -130,11 +130,8 @@ No caso de *indicar um conteúdo (2)*, irá ser perguntado ao utilizador se sabe
 
 ## 🙋 Autores
 
-João Freire
-[github.com/JadfPT](https://github.com/JadfPT)
-
-Daniel Cardoso
-[github.com/imdtcode](https://github.com/imdtcode)
+[JadfPT](https://github.com/JadfPT)
+[imdtcode](https://github.com/imdtcode)
 
 ## 📜 Licença
 
